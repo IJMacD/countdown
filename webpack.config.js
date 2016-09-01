@@ -16,8 +16,7 @@ module.exports = {
                 loaders: ["babel"],
                 include: path.join(__dirname, "src")
             },
-            { test: /\.css$/, loader: "style!css" },
-            { test: /\.scss$/, loader: "style!css?modules&camelCase!postcss" },
+            { test: /\.css$/, loader: "style!css?modules&camelCase" },
             { test: /\.(png|jpg|gif)$/, loader: "url?limit=8192" },
             { test: /\.html$/, loader: "file?name=[name].[ext]" },
             { test: /\.(otf|eot|svg|ttf|woff2?)$/, loader: "file" }

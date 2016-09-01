@@ -1,0 +1,12 @@
+.card {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    background: dodgerblue;
+    color: white;
+    font: 24pt sans-serif;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    line-height: 52px;
+}
